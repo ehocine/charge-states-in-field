@@ -5,7 +5,7 @@ authors:
   - family-names: Hocine
     given-names: Elhadj
     affiliation: "Independent Researcher, Algiers, Algeria"
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.23317748
 date-released: 2026-10-12
 license: MIT
@@ -23,8 +23,8 @@ references:
     authors:
       - family-names: Hocine
         given-names: Elhadj
-    version: 1.0.3
-    doi: 10.5281/zenodo.23316724
+    version: 1.0.4
+    doi: 10.5281/zenodo.23325384
   - type: software
     title: "collapse2d: atomic collapse of charged impurities in gapped 2D Dirac materials"
     authors:
