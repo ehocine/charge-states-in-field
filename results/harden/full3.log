@@ -1,0 +1,39 @@
+n_max3=40: mu1=-9.6894 mu2=1.9147 mu2(n3)=1.9147 mu3=14.8323 t=1171s
+     1171.91 real      1598.18 user        16.74 sys
+          2119925760  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1442359  page reclaims
+                 299  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 808  voluntary context switches
+              866230  involuntary context switches
+      13976568536404  instructions retired
+       4834464400079  cycles elapsed
+          2296482120  peak memory footprint
+n_max3=40: mu1=-9.2112 mu2=2.5218 mu2(n3)=2.5218 mu3=14.2732 t=1177s
+     1178.04 real      1605.67 user        17.74 sys
+          2665267200  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1651767  page reclaims
+                1414  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1218  voluntary context switches
+              968177  involuntary context switches
+      14355760186499  instructions retired
+       4888302156234  cycles elapsed
+          3198716904  peak memory footprint
+all done

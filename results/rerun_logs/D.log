@@ -1,0 +1,55 @@
+B=0.300 mu1=-9.623 mu2=1.952 mu3=14.950 ([-1, -1, 1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=144s
+B=0.500 mu1=-11.489 mu2=-0.161 mu3=14.970 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=143s
+B=1.000 mu1=-15.974 mu2=-4.286 mu3=14.588 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=118s
+B=2.000 mu1=-23.728 mu2=-10.287 mu3=13.819 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=114s
+B=3.000 mu1=-30.243 mu2=-14.911 mu3=13.151 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=573s
+B=4.000 mu1=-35.928 mu2=-18.794 mu3=12.566 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=191s
+B=5.000 mu1=-41.022 mu2=-22.194 mu3=12.040 ([-1, -1, -1] S=0.5) N2:[-1, -1] S=0.0 M=-1.0  t=128s
+B=0.0 n4=6: mu3=12.544 mu4=13.847 N4 (1, 1, -1, -1) S=0.0 M=0.0 t=1419s
+B=0.1 n4=6: mu3=12.906 mu4=15.060 N4 (-1, -1, -1, 1) S=1.0 M=-4.0 t=644s
+B=0.2 n4=6: mu3=13.966 mu4=15.191 N4 (-1, -1, -1, 1) S=1.0 M=-4.0 t=501s
+B=0.3 n4=6: mu3=15.079 mu4=15.211 N4 (-1, -1, -1, -1) S=1.0 M=-7.0 t=481s
+B=0.5 n4=6: mu3=14.970 mu4=15.469 N4 (-1, -1, -1, -1) S=1.0 M=-5.0 t=362s
+B=1.0 n4=6: mu3=14.545 mu4=15.916 N4 (-1, -1, -1, -1) S=1.0 M=-5.0 t=262s
+/Users/elhadj/Desktop/charge-states-in-field/fieldstates/ci.py:208: RuntimeWarning: invalid value encountered in divide
+  x /= np.linalg.norm(x)
+Traceback (most recent call last):
+  File "/Users/elhadj/Desktop/charge-states-in-field/scripts/f4_four.py", line 52, in <module>
+    main()
+    ~~~~^^
+  File "/Users/elhadj/Desktop/charge-states-in-field/scripts/f4_four.py", line 39, in main
+    r = P.ground(N, n_max=a.n4)
+  File "/Users/elhadj/Desktop/charge-states-in-field/fieldstates/driver.py", line 138, in ground
+    e, vec = ci.davidson(tol=tol)
+             ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/elhadj/Desktop/charge-states-in-field/fieldstates/ci.py", line 214, in davidson
+    ev, ey = np.linalg.eigh(0.5 * (Hs + Hs.T))
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/linalg/_linalg.py", line 1656, in eigh
+    w, vt = gufunc(a, signature=signature)
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/linalg/_linalg.py", line 151, in _raise_linalgerror_eigenvalues_nonconvergence
+    raise LinAlgError("Eigenvalues did not converge")
+numpy.linalg.LinAlgError: Eigenvalues did not converge
+B=0.3 n4=8: mu3=15.033 mu4=15.253 N4 (-1, -1, -1, -1) S=1.0 M=-7.0 t=1332s
+B=1.0 n4=8: mu3=14.541 mu4=15.914 N4 (-1, -1, -1, -1) S=1.0 M=-5.0 t=588s
+/Users/elhadj/Desktop/charge-states-in-field/fieldstates/ci.py:208: RuntimeWarning: invalid value encountered in divide
+  x /= np.linalg.norm(x)
+Traceback (most recent call last):
+  File "/Users/elhadj/Desktop/charge-states-in-field/scripts/f4_four.py", line 52, in <module>
+    main()
+    ~~~~^^
+  File "/Users/elhadj/Desktop/charge-states-in-field/scripts/f4_four.py", line 39, in main
+    r = P.ground(N, n_max=a.n4)
+  File "/Users/elhadj/Desktop/charge-states-in-field/fieldstates/driver.py", line 138, in ground
+    e, vec = ci.davidson(tol=tol)
+             ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/elhadj/Desktop/charge-states-in-field/fieldstates/ci.py", line 214, in davidson
+    ev, ey = np.linalg.eigh(0.5 * (Hs + Hs.T))
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/linalg/_linalg.py", line 1656, in eigh
+    w, vt = gufunc(a, signature=signature)
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/linalg/_linalg.py", line 151, in _raise_linalgerror_eigenvalues_nonconvergence
+    raise LinAlgError("Eigenvalues did not converge")
+numpy.linalg.LinAlgError: Eigenvalues did not converge

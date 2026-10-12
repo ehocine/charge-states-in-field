@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "fieldstates: charge states of a Coulomb impurity in gapped graphene in a magnetic field"
+authors:
+  - family-names: Hocine
+    given-names: Elhadj
+    affiliation: "Independent Researcher, Algiers, Algeria"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/ehocine/charge-states-in-field"
+preferred-citation:
+  type: article
+  title: "Magnetic-field-driven charging and valley polarization of a near-critical Coulomb impurity in gapped graphene"
+  authors:
+    - family-names: Hocine
+      given-names: Elhadj
+  status: preprint
+references:
+  - type: software
+    title: "chargestates: charge states of a near-critical Coulomb impurity in gapped graphene"
+    authors:
+      - family-names: Hocine
+        given-names: Elhadj
+    version: 1.0.3
+    doi: 10.5281/zenodo.23316724
+  - type: software
+    title: "collapse2d: atomic collapse of charged impurities in gapped 2D Dirac materials"
+    authors:
+      - family-names: Hocine
+        given-names: Elhadj
+    version: 1.0.0
+    doi: 10.5281/zenodo.23123320

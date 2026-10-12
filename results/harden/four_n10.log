@@ -1,0 +1,20 @@
+B=0.1 n4=10: mu3=12.827 mu4=15.058 N4 (-1, -1, -1, 1) S=1.0 M=-4.0 t=4238s
+     4238.86 real      4198.23 user        20.26 sys
+          1706262528  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2714515  page reclaims
+                1207  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 897  voluntary context switches
+              420703  involuntary context switches
+      57999635884073  instructions retired
+      12872855701487  cycles elapsed
+          2299726176  peak memory footprint
+all done

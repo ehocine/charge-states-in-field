@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# publishers' PDFs and unpublished manuscripts, not for redistribution
+refs/
+# working notes (not part of the code repository)
+NOTES.md
+PLAN.md
+LITERATURE.md
+PHYSICS.md
+paper/*
+!paper/tables/
+*.err
+# chargestates / collapse2d checkouts (see README)
+external/
+# exploratory runs (superseded by results/scan)
+results/explore/
+# superseded runs (kept locally; replaced after the three-electron window correction)
+results/superseded_window/
