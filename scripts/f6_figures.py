@@ -192,7 +192,7 @@ def fig_levels(plt):
             c = cmap(i / (len(js) - 1))
             for val, ls in (("-1", "-"), ("1", "--")):
                 y = np.array([d[b][val][j]["E"][0] if d[b][val][j]["E"] else np.nan for b in Bs])
-                ax.plot(B, y, ls, color=c, lw=1.0, label=(f"$j={float(j):g}$" if val == "-1" else None))
+                ax.plot(B, y, ls, color=c, lw=1.0, label=(f"$j,\\tilde{{\\jmath}}={float(j):g}$" if val == "-1" else None))
         ax.axhspan(DELTA, 200, color="0.92", lw=0)
         ax.axhspan(-200, -DELTA, color="0.92", lw=0)
         ax.set_ylim(-60, 50)
