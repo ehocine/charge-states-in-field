@@ -55,6 +55,13 @@ def conv_table():
                 if n in (12, 16, 24, 32, 40):
                     v = "all" if n >= 40 else str(n)
                     out.append(f"$n_{{\\max}}$ ($N=3$) & {v} & {r['mu2']:.3f} & {r['mu3']:.3f}\\\\")
+            # all states below a higher Landau-level cutoff (scripts/h5_cutoff_window.py; mu_3 only)
+            cp = os.path.join(ROOT, "results", "harden", "cutoff_window_D10.jsonl")
+            if os.path.exists(cp):
+                for r in (json.loads(x) for x in open(cp) if x.strip()):
+                    if np.isclose(r["B"], B) and B < 0.31 and r["n_ll"] > 40 \
+                            and r.get("sector", "Kprime pair + K") == "Kprime pair + K":   # same branch as above
+                        out.append(f"all, $n_{{\\rm LL}}$ & {r['n_ll']:g} & -- & {r['mu3']:.3f}\\\\")
             out.append("\\hline")
     open(os.path.join(TAB, "tab_conv_body.tex"), "w").write(minus("\n".join(out[:-1]) + "\n"))
 

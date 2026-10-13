@@ -12,8 +12,8 @@ Third paper of a series:
   [doi:10.5281/zenodo.23123320](https://doi.org/10.5281/zenodo.23123320));
 - paper 2, *Charge states of a near-critical Coulomb impurity in gapped graphene: Correlation and
   gate control*, code `chargestates`
-  ([ehocine/impurity-charge-states](https://github.com/ehocine/impurity-charge-states), release 1.0.4,
-  [doi:10.5281/zenodo.23325384](https://doi.org/10.5281/zenodo.23325384)), on which this package builds.
+  ([ehocine/impurity-charge-states](https://github.com/ehocine/impurity-charge-states), release 1.0.5,
+  [doi:10.5281/zenodo.23334631](https://doi.org/10.5281/zenodo.23334631)), on which this package builds.
 
 Repository: https://github.com/ehocine/charge-states-in-field · Archive (all releases; 1.0.1 is the version of the manuscript): [doi:10.5281/zenodo.23317748](https://doi.org/10.5281/zenodo.23317748) · License: MIT (see `LICENSE`) · Citation: `CITATION.cff`
 
@@ -21,7 +21,7 @@ Repository: https://github.com/ehocine/charge-states-in-field · Archive (all re
 
 ```bash
 pip install -r requirements.txt                      # numpy, scipy, mpmath, matplotlib, pytest
-git clone --branch 1.0.4 https://github.com/ehocine/impurity-charge-states external/impurity-charge-states
+git clone --branch 1.0.5 https://github.com/ehocine/impurity-charge-states external/impurity-charge-states
 git clone --branch 1.0.0 https://github.com/ehocine/dirac-collapse external/dirac-collapse
 make test                                            # regression tests (~5 min)
 make figures                                         # figures and generated tables from results/ (~1 min)
@@ -45,7 +45,7 @@ matrix-free Davidson solver and jointly q-compressed form factors; spin Zeeman e
 
 ```
 fieldstates/
-  deps.py          locates chargestates (release 1.0.4), which locates collapse2d
+  deps.py          locates chargestates (release 1.0.5), which locates collapse2d
   polarization.py  static polarization of the gapped sea in a field (Landau-level sums)
   screening.py     eps_B(q), field-dependent impurity potential and interaction
   basis.py         Furry basis in a field (Pruefer index, valley-dependent box condition)
@@ -71,6 +71,8 @@ scripts/
   h3_davidson_recheck.py  N = 3, 4 ground states recomputed after the Davidson start-vector fix
   h4_gate_kernel.py     field scan of Z = 2, D = 10 nm with the exact vacuum/hBN/metal gate kernel
                         (results/harden/exact_gate_D10.jsonl)
+  h5_cutoff_window.py   three-electron window: all states below n_LL = 40, 60, 80 Landau levels
+                        (results/harden/cutoff_window_D10.jsonl; used by h2_window.py)
 results/           JSON outputs; results/screening caches the polarization ratio tables
 figures/           figures of the manuscript
 paper/tables/      generated table bodies
