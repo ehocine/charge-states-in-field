@@ -15,7 +15,7 @@ Third paper of a series:
   ([ehocine/impurity-charge-states](https://github.com/ehocine/impurity-charge-states), release 1.0.5,
   [doi:10.5281/zenodo.23334631](https://doi.org/10.5281/zenodo.23334631)), on which this package builds.
 
-Repository: https://github.com/ehocine/charge-states-in-field · Archive (all releases; 1.0.1 is the version of the manuscript): [doi:10.5281/zenodo.23317748](https://doi.org/10.5281/zenodo.23317748) · License: MIT (see `LICENSE`) · Citation: `CITATION.cff`
+Repository: https://github.com/ehocine/charge-states-in-field · Archive (all releases; 1.0.2 is the version of the manuscript): [doi:10.5281/zenodo.23317748](https://doi.org/10.5281/zenodo.23317748) · License: MIT (see `LICENSE`) · Citation: `CITATION.cff`
 
 ## Quick start
 
