@@ -23,8 +23,8 @@ references:
     authors:
       - family-names: Hocine
         given-names: Elhadj
-    version: 1.0.4
-    doi: 10.5281/zenodo.23325384
+    version: 1.0.5
+    doi: 10.5281/zenodo.23334631
   - type: software
     title: "collapse2d: atomic collapse of charged impurities in gapped 2D Dirac materials"
     authors:

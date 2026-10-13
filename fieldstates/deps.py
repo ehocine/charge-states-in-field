@@ -1,5 +1,5 @@
-"""Locate chargestates (paper 2, release 1.0.4 of https://github.com/ehocine/impurity-charge-states,
-doi:10.5281/zenodo.23325384), which in turn locates collapse2d (paper 1, doi:10.5281/zenodo.23123320).
+"""Locate chargestates (paper 2, release 1.0.5 of https://github.com/ehocine/impurity-charge-states,
+doi:10.5281/zenodo.23334631), which in turn locates collapse2d (paper 1, doi:10.5281/zenodo.23123320).
 
 Search order: an importable chargestates; $CHARGESTATES_ROOT; ./external/impurity-charge-states;
 ~/Desktop/impurity-charge-states.
@@ -23,7 +23,7 @@ except ImportError:
     except ImportError as err:
         raise ImportError(
             "chargestates not found. Run\n"
-            "  git clone --branch 1.0.4 https://github.com/ehocine/impurity-charge-states external/impurity-charge-states\n"
-            "or set CHARGESTATES_ROOT to a checkout of release 1.0.4.") from err
+            "  git clone --branch 1.0.5 https://github.com/ehocine/impurity-charge-states external/impurity-charge-states\n"
+            "or set CHARGESTATES_ROOT to a checkout of release 1.0.5.") from err
 
 from chargestates.deps import collapse2d  # noqa: E402,F401

@@ -3,5 +3,5 @@ scipy>=1.13
 mpmath>=1.3
 matplotlib>=3.8
 pytest>=8
-# plus chargestates 1.0.4 (https://github.com/ehocine/impurity-charge-states, doi:10.5281/zenodo.23325384)
+# plus chargestates 1.0.5 (https://github.com/ehocine/impurity-charge-states, doi:10.5281/zenodo.23334631)
 # and collapse2d 1.0.0 (https://github.com/ehocine/dirac-collapse, doi:10.5281/zenodo.23123320)
